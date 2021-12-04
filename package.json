@@ -1,0 +1,32 @@
+{
+  "name": "@aotimme/amplify-rust-function-template-provider",
+  "version": "0.1.0",
+  "description": "Rust templates",
+  "author": "aotimme",
+  "license": "Apache-2.0",
+  "main": "lib/index.js",
+  "keywords": [
+    "aws",
+    "amplify",
+    "lambda",
+    "rust"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf lib tsconfig.tsbuildinfo resources/basic/target resources/basic/Cargo.lock"
+  },
+  "dependencies": {
+    "amplify-function-plugin-interface": "1.9.2",
+    "fs-extra": "^10.0.0",
+    "glob": "^7.2.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/glob": "^7.2.0",
+    "@types/lodash": "^4.14.177",
+    "@types/node": "^12.12.6",
+    "ejs-lint": "^1.2.1",
+    "typescript": "^4.5.2"
+  }
+}
