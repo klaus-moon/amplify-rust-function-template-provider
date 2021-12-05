@@ -1,9 +1,10 @@
 {
-  "name": "@aotimme/amplify-rust-function-template-provider",
+  "name": "functionTemplate",
   "type": "util",
   "commands": [],
   "eventHandlers": [],
   "functionTemplate": {
+    "pluginId": "@aotimme/amplify-rust-function-template-provider",
     "conditions": {
       "provider": "awscloudformation",
       "services": ["Lambda"],
