@@ -1,5 +1,7 @@
 # @aotimme/amplify-rust-function-template-provider
 
+[![npm version](https://img.shields.io/npm/v/@aotimme/amplify-rust-function-template-provider.svg?style=flat-square)](https://www.npmjs.org/package/@aotimme/amplify-rust-function-template-provider)
+
 This [AWS Amplify plugin](https://docs.amplify.aws/cli/plugins/plugins/) provides templates for Lambda functions in Rust.
 
 A Rust function runtime provider plugin, such as `@aotimme/amplify-rust-function-runtime-provider`, is required to enable Rust lambda functions in AWS Amplify.
