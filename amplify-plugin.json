@@ -4,7 +4,7 @@
   "commands": [],
   "eventHandlers": [],
   "functionTemplate": {
-    "pluginId": "@aotimme/amplify-rust-function-template-provider",
+    "pluginId": "amplify-rust-function-template-provider",
     "conditions": {
       "provider": "awscloudformation",
       "services": ["Lambda"],
